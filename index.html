@@ -24,7 +24,7 @@
           <div>
             <img
               class="photoCV"
-              src="img/Etienne-Pogoda-cv.jpeg"
+              src="img/Etienne-Pogoda-cv.jpg"
               alt="photo du cv"
             />
           </div>
@@ -36,7 +36,7 @@
                   src="img/icons/github.png"
                   alt="github"
                 />
-                Github/Zlarb02<br /><br />
+                Github/Zlarb02
               </a>
             </li>
             <li>
@@ -45,7 +45,7 @@
                   class="contactIcons"
                   src="img/icons/courrier.png"
                   alt="adresse mail" />
-                etiennepogoda@gmail.com<br /><br
+                etiennepogoda@gmail.com<br
               /></a>
             </li>
             <li>
@@ -54,7 +54,7 @@
                   class="contactIcons"
                   src="img/icons/telephone-intelligent.png"
                   alt="numéro de telephone" />
-                07 71 85 33 28<br /><br
+                07 71 85 33 28<br
               /></a>
             </li>
             <li>
@@ -64,7 +64,7 @@
                   src="img/icons/linkedin.png"
                   alt="linkedin"
                 />
-                LinkedIn/Etienne-Pogoda<br /><br />
+                LinkedIn/Etienne-Pogoda
               </a>
             </li>
             <li>
@@ -73,12 +73,12 @@
                   class="contactIcons"
                   src="img/icons/adresse-du-domicile.png"
                   alt="adresse du domicile" />
-                81 rue de Jemmapes, Lille<br /><br
+                81 rue de Jemmapes, Lille<br
               /></a>
             </li>
           </ul>
           <h3>Tech Stack</h3>
-          <section>
+          <section class="techStack">
             <a href="https://en.wikipedia.org/wiki/Front-end_web_development">
               <img
                 class="techStackIcons"
@@ -104,17 +104,93 @@
             <a href="https://angular.io">
               <img
                 class="techStackIcons"
+                id="angularIcon"
                 src="img/icons/angular.png"
                 alt="html, css, js"
               />
             </a>
           </section>
-          <h3>Competences</h3>
+          <h3>Compétences</h3>
+          <ul>
+            <li>Anglais B2</li>
+            <li>Bonne communication</li>
+            <li>Approche autodidacte</li>
+            <li>Curieux</li>
+          </ul>
           <section></section>
         </div>
         <div class="col-7">
           <h2>Etienne Pogoda</h2>
           <h1>Developpeur Web</h1>
+          <section id="bio">
+            <p>
+              Développeur web en formation fullstack auto-financé. J'ai une
+              solide expérience pro en hôtellerie-restauration. Je recherche un
+              stage pour renforcer mes compétences techniques et contribuer à
+              des projets concrets.
+            </p>
+          </section>
+          <h3 onclick="toggle_visibility('experiences');">Experiences</h3>
+          <section id="experiences">
+            <div class="row">
+              <div class="col-4">
+                <p>04/2023 - en cours<br />Lille</p>
+              </div>
+              <div class="col-8">
+                <p class="entreprise">Pizzou Grand Scène</p>
+                <p class="poste">Employé polyvalent</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-4">
+                <p>04/2023 - en cours<br />Lille</p>
+              </div>
+              <div class="col-8">
+                <p>
+                  Simplon <br />
+                  Formation Dev Front-end Angular
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <h3 onclick="toggle_visibility('formations');">Formations</h3>
+          <section id="formations">
+            <div class="row">
+              <div class="col-4">
+                <p>04/2023 - en cours<br />Lille</p>
+              </div>
+              <div class="col-8">
+                <p>
+                  Simplon <br />
+                  Formation Dev Front-end Angular
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-4">
+                <p>04/2023 - en cours<br />Lille</p>
+              </div>
+              <div class="col-8">
+                <p>
+                  Simplon <br />
+                  Formation Dev Front-end Angular
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <h3 onclick="toggle_visibility('ci');">Centres d'intérêt</h3>
+          <section id="ci">
+            <p>
+              Musique : passionné, je m’essaye à la production et
+              l'enregistrement
+            </p>
+            <p>
+              Jeux-vidéo : j’essaye de créer un jeu-vidéo mélangeant 2D et 3D
+              avec l'Unreal Engine
+            </p>
+          </section>
         </div>
       </div>
     </div>

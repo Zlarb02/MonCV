@@ -3,7 +3,8 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 2vw;
     background-color: white;
-    overflow: hidden;
+    height: 100vh;
+    overflow-x: hidden;
 }
 
 a,
@@ -12,23 +13,49 @@ a:hover {
     text-decoration: none;
 }
 
+h2,
+h1 {
+    text-align: right;
+    margin-right: 5vw;
+}
+
+h2 {
+    margin-top: 3vh;
+}
+
+h3 {
+    margin-left: 2vw;
+}
+
 .photoCV {
     display: block;
-    border-radius: 50%;
+    border-radius: 100%;
     width: 20vw;
     margin: 2vh 10vw;
 }
 
 .contactIcons {
     width: 4vw;
+    margin: 0.5vh;
+}
+
+.techStack {
+    margin-left: 2vw;
+    text-align: center;
 }
 
 .techStackIcons {
-    width: 10vw;
+    width: 6vw;
 }
 
 #bootstrapIcon {
-    width: 15vw
+    width: 12vw;
+    margin-top: 1vw;
+}
+
+#angularIcon {
+    width: 8vw;
+    margin-left: 1vw
 }
 
 ul {
@@ -49,10 +76,46 @@ ul {
 
 .col-5 {
     background-color: antiquewhite;
-    height: 100vh;
 }
 
 .col-7 {
     background-color: cornsilk;
-    height: 100vh;
+}
+
+.col-4 {}
+
+.col-8 {
+    text-align: right;
+    padding-right: 5%;
+}
+
+#bio {
+    padding: 5vh 1vw;
+    text-align: center;
+}
+
+@media (orientation: landscape) {
+    #bio {
+        padding: 5vh 1vw;
+        text-align: center;
+    }
+}
+
+
+#formations,
+#ci {
+    display: none;
+}
+
+@media (orientation: portrait) {
+
+    html,
+    body {
+        overflow: hidden;
+    }
+
+    #bio {
+        padding: 2vh 1vw;
+        text-align: center;
+    }
 }
