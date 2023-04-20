@@ -101,10 +101,19 @@ ul {
     }
 }
 
+#experiences,
+#formations,
+#ci {
+    margin-bottom: 5vh;
+}
 
 #formations,
 #ci {
     display: none;
+}
+
+.dateLieu {
+    margin: 0;
 }
 
 .entreprise {
@@ -115,6 +124,11 @@ ul {
 .poste {
     font-style: italic;
     margin: 0
+}
+
+.description {
+    font-size: 1.6vw;
+    margin-top: 1.5vh;
 }
 
 @media (orientation: portrait) {
