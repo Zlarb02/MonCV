@@ -107,6 +107,16 @@ ul {
     display: none;
 }
 
+.entreprise {
+    font-weight: bold;
+    margin: 0
+}
+
+.poste {
+    font-style: italic;
+    margin: 0
+}
+
 @media (orientation: portrait) {
 
     html,
