@@ -131,6 +131,23 @@ ul {
     margin-top: 1.5vh;
 }
 
+.off-left {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(144, 96, 104, 1) 0%, rgba(250, 245, 193, 1) 98%);
+}
+
+.deezer {
+    margin-top: -21vh;
+}
+
+.spotify,
+.youtube,
+.tidal,
+.amazon-music,
+.apple-music {
+    margin-top: 2vh;
+}
+
 @media (orientation: portrait) {
 
     html,
@@ -143,80 +160,3 @@ ul {
         text-align: center;
     }
 }
-
-
-/* sidebar */
-
-.sidebar {
-    display block;
-    background-color: green;
-    width: 30vw;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-}
-
-.sidebar h1 {
-    color: white;
-}
-
-.portfolio {
-    background-color: red;
-    position: absolute;
-    max-width: 100%;
-    top: 0;
-    left: 30vw;
-    right: 0;
-    bottom: 0;
-
-    -moz-transition: left 0.5s ease;
-    transition: left 0.5s ease;
-}
-
-input[type=checkbox] {
-    display: none;
-}
-
-input:checked~.portfolio {
-    left: 0;
-}
-
-input:checked~label {
-    left: 0;
-}
-
-.zic {}
-
-label {
-    display: block;
-    z-index: 2;
-    position: absolute;
-    top: 0;
-    left: 28vw;
-    width: 2vw;
-    height: 2vh;
-    background-color: blue;
-    -moz-transition: left 0.5s ease;
-    transition: left 0.5s ease;
-}
-
-/* iframe container
-
-.iframe-container {
-    width: 100%;
-    height: 0;
-    position: relative;
-}
-
-.iframe-container iframe {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    border: 0;
-}
-
-*/
