@@ -234,27 +234,27 @@
           </section>
           <button
             id="btn-for-left-sidebar"
-            class="btn btn-primary"
+            class="btn"
             type="button"
             data-bs-toggle="offcanvas"
             data-bs-target="#offcanvasWithBothOptions"
             aria-controls="offcanvasWithBothOptions"
           >
-            Enable both scrolling & backdrop
+            Dawn by Lucas Dorier
           </button>
           <button
             id="btn-for-right-sidebar"
-            class="btn btn-primary"
+            class="btn"
             type="button"
             data-bs-toggle="offcanvas"
             data-bs-target="#offcanvasRight"
             aria-controls="offcanvasRight"
           >
-            Toggle right offcanvas
+            Zelda & Chill by Mikel
           </button>
           <button
             id="btn-for-top-sidebar"
-            class="btn btn-primary"
+            class="btn"
             type="button"
             data-bs-toggle="offcanvas"
             data-bs-target="#offcanvasTop"
@@ -264,7 +264,7 @@
           </button>
           <button
             id="btn-for-bottom-sidebar"
-            class="btn btn-primary"
+            class="btn"
             type="button"
             data-bs-toggle="offcanvas"
             data-bs-target="#offcanvasBottom"
@@ -296,6 +296,17 @@
       </div>
 
       <div class="offcanvas-body">
+        <iframe
+          class="tidal"
+          title="tidal-widget"
+          src="https://embed.tidal.com/albums/206456178?layout=gridify"
+          width="100%"
+          height="150vh"
+          style="width: 100%; overflow: hidden; border-radius: 10px"
+          frameborder="0"
+          allowtransparency="true"
+          allow="encrypted-media; clipboard-write"
+        ></iframe>
         <iframe
           class="spotify"
           style="border-radius: 12px"
@@ -329,30 +340,18 @@
           allowfullscreen
         ></iframe>
         <iframe
-          class="tidal"
-          title="tidal-widget"
-          src="https://embed.tidal.com/albums/206456178?layout=gridify"
-          width="100%"
-          height="150vh"
-          style="width: 100%; overflow: hidden; border-radius: 10px"
-          frameborder="0"
-          allowtransparency="true"
-          allow="encrypted-media; clipboard-write"
-        ></iframe>
-
-        <iframe
           class="apple-music"
           allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write"
           frameborder="0"
           height="150vh"
           style="width: 100%; overflow: hidden; border-radius: 10px"
           sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
-          src="https://embed.music.apple.com/it/album/dawn/1597100140?l=en"
+          src="https://embed.music.apple.com/fr/album/dawn/1597100140"
         ></iframe>
         <iframe
           class="amazon-music"
           title="amazon-widget"
-          src="https://www.amazon.fr/Calm-Sea/dp/%3Ciframe%20id='AmazonMusicEmbedB09MJHHLQJ'%20src='https://music.amazon.fr/embed/B09MJHHLQJ/?id=cmNAH0NGgC&marketplaceId=A13V1IB3VIYZZH&musicTerritory=FR%27%20width=%27100%%27%20height=%27550px%27%20style=%27border:1px%20solid%20rgba(0,%200,%200,%200.12);max-width:%27%3E%3C/iframe%3E"
+          src="https://music.amazon.fr/embed/B09MJHHLQJ/?id=cmNAH0NGgC&marketplaceId=A13V1IB3VIYZZH&musicTerritory=FR"
           width="100%"
           height="150vh"
           style="width: 100%; overflow: hidden; border-radius: 10px"
@@ -371,7 +370,7 @@
     >
       <div class="offcanvas-header">
         <h5 class="offcanvas-title" id="offcanvasRightLabel">
-          Offcanvas right
+          Zelda & Chill by Mikel
         </h5>
         <button
           type="button"
@@ -380,7 +379,64 @@
           aria-label="Close"
         ></button>
       </div>
-      <div class="offcanvas-body">...</div>
+      <div class="offcanvas-body">
+        <iframe
+          class="youtube"
+          style="width: 100%; overflow: hidden; border-radius: 10px"
+          src="https://www.youtube-nocookie.com/embed/videoseries?list=PLoupLnv0rZ6yQYLT-H-lDSkoamYZ_-HzG"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          class="spotify"
+          style="border-radius: 12px"
+          src="https://open.spotify.com/embed/album/3oNO1P0Qlr4oSlMA2MIj67?utm_source=generator"
+          width="100%"
+          height="300vh"
+          style="width: 100%; overflow: hidden; border-radius: 10px"
+          frameborder="0"
+          allowfullscreen=""
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          loading="lazy"
+        ></iframe>
+        <iframe
+          class="deezer"
+          title="deezer-widget"
+          src="https://widget.deezer.com/widget/auto/album/72646732"
+          height="150vh"
+          style="width: 100%; overflow: hidden; border-radius: 10px"
+          frameborder="0"
+          allowtransparency="true"
+          allow="encrypted-media; clipboard-write"
+        ></iframe>
+        <iframe
+          class="tidal"
+          title="tidal-widget"
+          src="https://embed.tidal.com/albums/94787525?layout=gridify"
+          height="150vh"
+          style="width: 100%; overflow: hidden; border-radius: 10px"
+          frameborder="0"
+          allowtransparency="true"
+          allow="encrypted-media; clipboard-write"
+        ></iframe>
+        <iframe
+          class="apple-music"
+          allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write"
+          frameborder="0"
+          height="150vh"
+          style="width: 100%; overflow: hidden; border-radius: 10px"
+          sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
+          src="https://embed.music.apple.com/fr/album/zelda-chill/1435680173"
+        ></iframe>
+        <iframe
+          id="AmazonMusicEmbedB07H659QVG"
+          src="https://music.amazon.ca/embed/B07H659QVG/?id=PJCOn8CJle&marketplaceId=ART4WZ8MWBX2Y&musicTerritory=CA"
+          height="150vh"
+          style="width: 100%; overflow: hidden; border-radius: 10px"
+        ></iframe>
+      </div>
     </div>
 
     <div
