@@ -74,11 +74,11 @@ ul {
     height: 100%;
 }
 
-.col-5 {
+#col-left {
     background-color: antiquewhite;
 }
 
-.col-7 {
+#col-right {
     background-color: cornsilk;
 }
 

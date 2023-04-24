@@ -12,11 +12,15 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles/styles.css" />
     <link rel="stylesheet" href="styles/buttons.css" />
   </head>
   <body>
-    <div class="container">
+    <div class="container" id="change-font">
       <!--       <input id="slide-sidebar" type="checkbox" role="button" />
       <div>
         <label for="slide-sidebar"><span>zic</span></label>
@@ -27,11 +31,12 @@
         
       </div> -->
       <div class="row">
-        <div class="col-5">
+        <div class="col-5" id="col-left">
           <div>
             <img
+              id="profilePic"
               class="photoCV"
-              src="img/Etienne-Pogoda-cv.jpg"
+              src="img/Etienne-Pogoda-profile-picture.jpg"
               alt="photo du cv"
             />
           </div>
@@ -126,7 +131,7 @@
           </ul>
           <section></section>
         </div>
-        <div class="col-7">
+        <div class="col-7" id="col-right">
           <h2>Etienne Pogoda</h2>
           <h1>Developpeur Web</h1>
           <section id="bio">
@@ -249,7 +254,7 @@
             data-bs-target="#offcanvasWithBothOptions"
             aria-controls="offcanvasWithBothOptions"
           >
-            Dawn by Lucas Dorier
+            Dawn<br />by Lucas Dorier
           </button>
           <button
             id="btn-for-right-sidebar"
@@ -259,7 +264,7 @@
             data-bs-target="#offcanvasRight"
             aria-controls="offcanvasRight"
           >
-            Zelda & Chill by Mikel
+            Zelda & Chill<br />by Mikel
           </button>
           <button
             id="btn-for-top-sidebar"
@@ -485,7 +490,6 @@
       </div>
       <div class="offcanvas-body">...</div>
     </div>
-    <script src="scripts/script.js"></script>
     <script src="scripts/bootstrap.min.js"></script>
     <script src="scripts/script.js"></script>
   </body>
