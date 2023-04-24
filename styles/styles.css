@@ -131,25 +131,19 @@ ul {
     margin-top: 1.5vh;
 }
 
+#btn-for-left-sidebar,
+#btn-for-right-sidebar {
+    width: 25vw;
+}
 
 .off-left {
     background: rgb(2, 0, 36);
     background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(144, 96, 104, 1) 0%, rgba(250, 245, 193, 1) 98%);
 }
 
-#btn-for-left-sidebar {
-    background: rgb(2, 0, 36);
-    background: linear-gradient(200deg, rgba(2, 0, 36, 1) 0%, rgba(144, 96, 104, 1) 0%, rgba(250, 245, 193, 1) 98%);
-}
-
-#btn-for-right-sidebar {
-    background: rgb(181, 125, 203);
-    background: linear-gradient(110deg, rgba(181, 125, 203, 1) 0%, rgba(164, 134, 182, 1) 0%, rgba(151, 141, 165, 1) 0%, rgba(139, 147, 150, 1) 100%, rgba(129, 152, 138, 1) 100%, rgba(121, 156, 128, 1) 100%, rgba(117, 158, 123, 1) 100%, rgba(111, 161, 116, 1) 100%, rgba(105, 164, 108, 1) 100%, rgba(99, 167, 101, 1) 100%, rgba(99, 167, 101, 1) 100%, rgba(94, 169, 95, 1) 100%, rgba(93, 170, 93, 1) 100%, rgba(81, 176, 79, 1) 100%, rgba(81, 176, 79, 1) 100%, rgba(81, 176, 79, 1) 100%);
-}
-
 .off-right {
     background: rgb(181, 125, 203);
-    background: linear-gradient(110deg, rgba(181, 125, 203, 1) 0%, rgba(164, 134, 182, 1) 0%, rgba(151, 141, 165, 1) 0%, rgba(117, 158, 123, 1) 100%, rgba(111, 161, 116, 1) 100%, rgba(105, 164, 108, 1) 100%, rgba(99, 167, 101, 1) 100%, rgba(99, 167, 101, 1) 100%, rgba(94, 169, 95, 1) 100%, rgba(93, 170, 93, 1) 100%, rgba(81, 176, 79, 1) 100%, rgba(81, 176, 79, 1) 100%, rgba(81, 176, 79, 1) 100%);
+    background: linear-gradient(110deg, rgba(181, 125, 203, 1) 0%, rgba(164, 134, 182, 1) 0%, rgba(89, 48, 120, 1) 28%, rgba(158, 228, 147, 1) 36%, rgba(111, 161, 116, 1) 89%, rgba(158, 228, 147, 1) 100%, rgba(129, 152, 138, 1) 100%, rgba(121, 156, 128, 1) 100%, rgba(117, 158, 123, 1) 100%, rgba(105, 164, 108, 1) 100%, rgba(99, 167, 101, 1) 100%, rgba(99, 167, 101, 1) 100%, rgba(94, 169, 95, 1) 100%, rgba(93, 170, 93, 1) 100%, rgba(81, 176, 79, 1) 100%, rgba(81, 176, 79, 1) 100%);
 }
 
 .deezer {
