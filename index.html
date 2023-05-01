@@ -16,20 +16,13 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100&effect=neon">
     <link rel="stylesheet" href="styles/styles.css" />
     <link rel="stylesheet" href="styles/buttons.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
   </head>
   <body>
     <div class="container" id="change-font">
-      <!--       <input id="slide-sidebar" type="checkbox" role="button" />
-      <div>
-        <label for="slide-sidebar"><span>zic</span></label>
-      </div>
-      <div class="sidebar col">
-        <h1>Musique ?</h1>
-        <br />
-        
-      </div> -->
       <div class="row">
         <div class="col-5" id="col-left">
           <div>
@@ -89,7 +82,7 @@
               /></a>
             </li>
           </ul>
-          <h3>Tech Stack</h3>
+          <h3 class="leftH3">Tech Stack</h3>
           <section class="techStack">
             <a href="https://en.wikipedia.org/wiki/Front-end_web_development">
               <img
@@ -122,7 +115,7 @@
               />
             </a>
           </section>
-          <h3>Compétences</h3>
+          <h3 class="leftH3">Compétences</h3>
           <ul>
             <li>Anglais B2</li>
             <li>Bonne communication</li>
@@ -132,8 +125,8 @@
           <section></section>
         </div>
         <div class="col-7" id="col-right">
-          <h2>Etienne Pogoda</h2>
-          <h1>Developpeur Web</h1>
+          <h2 id="neonh1" class="neon">Etienne Pogoda</h2>
+          <h1 id="neonh2" class="neon">Developpeur Web</h1>
           <section id="bio">
             <p>
               Développeur web en formation fullstack auto-financé. J'ai une
@@ -142,9 +135,14 @@
               des projets concrets.
             </p>
           </section>
-          <h3 class="pointer" onclick="toggle_visibility('experiences');">
-            Experiences
-          </h3>
+          <div id="toXpContainer" class="pointer" onclick="toggle_visibility('experiences');">
+            <h3>
+              Experiences
+              <img
+              src="img/icons/arrow.png"  class="arrow" id="arrowXP"
+              ></img>
+            </h3>
+          </div>
           <section id="experiences">
             <div class="row">
               <div class="col-4">
@@ -156,8 +154,7 @@
               </div>
             </div>
             <p class="description">
-              Descripiton des taches effectués à ce poste ou des technos vu en
-              formation
+              Tenir la caisse, fermer la caisse, préparer les pizzas, contact client et nettoyage
             </p>
             <hr />
             <div class="row">
@@ -171,14 +168,17 @@
             </div>
 
             <p class="description">
-              Descripiton des taches effectués à ce poste ou des technos vu en
-              formation
+              Barman, accueil, entretiens, caisse, service en salle
             </p>
           </section>
-
-          <h3 class="pointer" onclick="toggle_visibility('formations');">
-            Formations
-          </h3>
+          <div id="toFormationContainer" class="pointer" onclick="toggle_visibility('formations');">
+            <h3>
+              Formations
+              <img
+              src="img/icons/arrow.png"  class="arrow" id="arrowF"
+              ></img>
+            </h3>
+          </div>
           <section id="formations">
             <div class="row">
               <div class="col-4">
@@ -190,10 +190,7 @@
               </div>
             </div>
 
-            <p class="description">
-              Descripiton des taches effectués à ce poste ou des technos vu en
-              formation
-            </p>
+            <p class="description">6 semaines sur Angular</p>
             <hr />
             <div class="row">
               <div class="col-4">
@@ -206,8 +203,8 @@
             </div>
 
             <p class="description">
-              Descripiton des taches effectués à ce poste ou des technos vu en
-              formation
+              Web Design, SEO, Algorithmie, Base de données, UML, PHP, Symphony,
+              Git et GitHub, React, React Native, Angular
             </p>
             <hr />
             <div class="row">
@@ -226,14 +223,18 @@
             </div>
 
             <p class="description">
-              Descripiton des taches effectués à ce poste ou des technos vu en
-              formation
+              Gestion de projet, communication, Git, Bootstrap, Typescript,
+              TS-Jest
             </p>
           </section>
-
-          <h3 class="pointer" onclick="toggle_visibility('ci');">
-            Centres d'intérêt
-          </h3>
+          <div id="toCI-Container" class="pointer" onclick="toggle_visibility('ci');">
+            <h3>
+              Centres d'intérêt
+              <img
+                src="img/icons/arrow.png"  class="arrow" id="arrowCI"
+                ></img>
+            </h3>
+          </div>
           <section id="ci">
             <p>
               Musique : passionné, je m’essaye à la production et
@@ -243,49 +244,50 @@
               Jeux-vidéo : j’essaye de créer un jeu-vidéo mélangeant 2D et 3D
               avec l'Unreal Engine
             </p>
+
+            <h4>Bonus :</h4>
+            <p>Choisis une musique, le CV s'habille en conséquence !</p>
+            <button
+              id="btn-for-left-sidebar"
+              class="pulse"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasWithBothOptions"
+              aria-controls="offcanvasWithBothOptions"
+            >
+              Dawn<br />by Lucas Dorier
+            </button>
+            <button
+              id="btn-for-right-sidebar"
+              class="offset"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasRight"
+              aria-controls="offcanvasRight"
+            >
+              Zelda & Chill<br />by Mikel
+            </button>
+<!--             <button
+              id="btn-for-top-sidebar"
+              class="btn o"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasTop"
+              aria-controls="offcanvasTop"
+            >
+              Toggle top offcanvas
+            </button>
+            <button
+              id="btn-for-bottom-sidebar"
+              class="btn"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasBottom"
+              aria-controls="offcanvasBottom"
+            >
+              Toggle bottom offcanvas
+            </button> -->
           </section>
-          <h4>J'ai voulu faire un CV qui me ressemble</h4>
-          <p>Choisis une musique, le CV s'habille en conséquence !</p>
-          <button
-            id="btn-for-left-sidebar"
-            class="pulse"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasWithBothOptions"
-            aria-controls="offcanvasWithBothOptions"
-          >
-            Dawn<br />by Lucas Dorier
-          </button>
-          <button
-            id="btn-for-right-sidebar"
-            class="offset"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasRight"
-            aria-controls="offcanvasRight"
-          >
-            Zelda & Chill<br />by Mikel
-          </button>
-          <button
-            id="btn-for-top-sidebar"
-            class="btn o"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasTop"
-            aria-controls="offcanvasTop"
-          >
-            Toggle top offcanvas
-          </button>
-          <button
-            id="btn-for-bottom-sidebar"
-            class="btn"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasBottom"
-            aria-controls="offcanvasBottom"
-          >
-            Toggle bottom offcanvas
-          </button>
         </div>
       </div>
     </div>

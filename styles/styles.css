@@ -1,156 +1,153 @@
 html,
 body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 2vw;
-    background-color: white;
-    height: 100%;
-    overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
+  font-size: 2vw;
+  background-color: white;
+  height: 100%;
+  overflow-x: hidden;
 }
 
 a,
 a:hover {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
 h2,
 h1 {
-    text-align: right;
-    margin-right: 5vw;
+  text-align: right;
+  margin-right: 5vw;
 }
 
 h2 {
-    margin-top: 3vh;
+  margin-top: 3vh;
 }
 
 h3 {
-    margin-left: 2vw;
+  margin-left: 2vw;
 }
 
 .photoCV {
-    display: block;
-    border-radius: 100%;
-    width: 20vw;
-    margin: 2vh 10vw;
+  display: block;
+  border-radius: 100%;
+  width: 20vw;
+  margin: 2vh 10vw;
 }
 
 .contactIcons {
-    width: 4vw;
-    margin: 0.5vh;
+  width: 4vw;
+  margin: 0.5vh;
 }
 
 .techStack {
-    margin-left: 2vw;
-    text-align: center;
+  margin-left: 2vw;
+  text-align: center;
 }
 
 .techStackIcons {
-    width: 6vw;
+  width: 6vw;
 }
 
 #bootstrapIcon {
-    width: 12vw;
-    margin-top: 1vw;
+  width: 12vw;
+  margin-top: 1vw;
 }
 
 #angularIcon {
-    width: 8vw;
-    margin-left: 1vw
+  width: 8vw;
+  margin-left: 1vw;
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .container {
-    margin: 0;
-    padding: 0;
-    max-width: 100%;
-    height: 100%;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  height: 100%;
 }
 
 .row {
-    padding: 0;
-    height: 100%;
+  padding: 0;
+  height: 100%;
 }
 
 #col-left {
-    background-color: antiquewhite;
+  background-color: antiquewhite;
 }
 
 #col-right {
-    background-color: cornsilk;
+  background-color: cornsilk;
 }
 
 .col-8 {
-    text-align: right;
-    padding-right: 5%;
+  text-align: right;
+  padding-right: 5%;
 }
 
 #bio {
-    padding: 5vh 1vw;
-    text-align: center;
+  padding: 5vh 1vw;
+  text-align: center;
 }
 
 .pointer {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 #experiences,
 #formations,
 #ci {
-    margin-bottom: 5vh;
+  margin-bottom: 5vh;
 }
 
+#experiences,
 #formations,
 #ci {
-    display: none;
+  display: none;
 }
 
 .dateLieu {
-    margin: 0;
+  margin: 0;
 }
 
 .entreprise {
-    font-weight: bold;
-    margin: 0
+  font-weight: bold;
+  margin: 0;
 }
 
 .poste {
-    font-style: italic;
-    margin: 0
+  font-style: italic;
+  margin: 0;
 }
 
 .description {
-    font-size: 1.6vw;
-    margin-top: 1.5vh;
+  font-size: 1.6vw;
+  margin-top: 1.5vh;
 }
 
 #btn-for-left-sidebar,
 #btn-for-right-sidebar {
-    width: 25vw;
+  width: 25vw;
 }
 
 .off-left {
-    background: rgb(2, 0, 36);
-    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(144, 96, 104, 1) 0%, rgba(250, 245, 193, 1) 98%);
+  background: rgb(2, 0, 36);
+  background: linear-gradient(180deg, rgb(2, 0, 36) 0%, rgb(144, 96, 104) 0%, rgb(250, 245, 193) 98%);
 }
 
 .off-right {
-    background: rgb(181, 125, 203);
-    background: linear-gradient(110deg, rgba(181, 125, 203, 1) 0%, rgba(140, 91, 170, 1) 0%, rgba(89, 48, 120, 1) 26%, rgba(158, 228, 147, 1) 41%, rgba(111, 161, 116, 1) 89%, rgba(158, 228, 147, 1) 100%, rgba(129, 152, 138, 1) 100%, rgba(121, 156, 128, 1) 100%, rgba(117, 158, 123, 1) 100%, rgba(105, 164, 108, 1) 100%, rgba(99, 167, 101, 1) 100%, rgba(99, 167, 101, 1) 100%, rgba(94, 169, 95, 1) 100%, rgba(93, 170, 93, 1) 100%, rgba(81, 176, 79, 1) 100%, rgba(81, 176, 79, 1) 100%);
-}
-
-#offcanvasRightLabel {
-    color: #9EE493;
+  background: rgb(181, 125, 203);
+  background: linear-gradient(110deg, rgb(181, 125, 203) 0%, rgb(140, 91, 170) 0%, rgb(89, 48, 120) 26%, rgb(158, 228, 147) 41%, rgb(111, 161, 116) 89%, rgb(158, 228, 147) 100%, rgb(129, 152, 138) 100%, rgb(121, 156, 128) 100%, rgb(117, 158, 123) 100%, rgb(105, 164, 108) 100%, rgb(99, 167, 101) 100%, rgb(99, 167, 101) 100%, rgb(94, 169, 95) 100%, rgb(93, 170, 93) 100%, rgb(81, 176, 79) 100%, rgb(81, 176, 79) 100%);
 }
 
 #offcanvasLeftLabel {
-    color: #FAF5C2;
+  color: #FAF5C2;
 }
 
 .deezer {
-    margin-top: -21vh;
+  margin-top: -21vh;
 }
 
 .spotify,
@@ -158,25 +155,90 @@ ul {
 .tidal,
 .amazon-music,
 .apple-music {
-    margin-top: 2vh;
+  margin-top: 2vh;
 }
 
 @media (orientation: landscape) {
-    #bio {
-        padding: 5vh 1vw;
-        text-align: center;
-    }
+  #bio {
+    padding: 5vh 1vw;
+    text-align: center;
+  }
 }
 
 @media (orientation: portrait) {
 
-    html,
-    body {
-        overflow: hidden;
-    }
+  #bio {
+    padding: 2vh 1vw;
+    text-align: center;
+  }
+}
 
-    #bio {
-        padding: 2vh 1vw;
-        text-align: center;
-    }
+/* cross to arrow */
+
+.arrow2 {
+  width: 7vw;
+}
+
+.arrow {
+  width: 7vw;
+  transform: rotate(-90deg);
+}
+
+
+.neonTitle {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: "Vibur", sans-serif;
+  color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+}
+
+.neonRight {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: "Vibur", sans-serif;
+  color: #0db6ff;
+  text-shadow:
+    0 0 21px #fff,
+    0 0 42px rgb(0, 251, 255),
+    0 0 82px rgb(0, 255, 255),
+    0 0 92px rgb(0, 255, 247),
+    0 0 102px rgb(0, 119, 255),
+    0 0 151px rgb(0, 195, 255);
+}
+
+.neonOrange {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: "Vibur", sans-serif;
+  color: #ffe387;
+  text-shadow:
+    0 0 21px #fff,
+    0 0 42px rgb(255, 228, 185),
+    0 0 82px rgb(255, 201, 140),
+    0 0 92px rgb(226, 156, 80),
+    0 0 102px rgb(255, 153, 0),
+    0 0 151px rgb(255, 128, 0);
+}
+
+.neonLeft {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: "Vibur", sans-serif;
+  color: #8f76ff;
+  text-shadow:
+    0 0 21px #b69eff,
+    0 0 42px rgb(165, 143, 238),
+    0 0 82px rgb(178, 176, 255),
+    0 0 92px rgb(189, 151, 255),
+    0 0 102px rgb(201, 188, 218),
+    0 0 151px #9f76ff;
 }
