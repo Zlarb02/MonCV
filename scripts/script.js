@@ -57,7 +57,7 @@ btnR.addEventListener("click", () => {
   pic.style.borderRadius = "15px";
   changeFont.style.fontFamily = "'Poppins', sans-serif";
   $(neon1).addClass("neonTitle");
-  $(neon2).addClass("neonTitle");
+  $(neon2).addClass("neonOrange");
   $("h3, h4, h5").addClass("neonOrange");
   $(".leftH3").addClass("neonLeft");
   $(".entreprise").addClass("neonOrange");

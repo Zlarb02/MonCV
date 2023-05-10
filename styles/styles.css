@@ -27,6 +27,15 @@ h3 {
   margin-left: 2vw;
 }
 
+h6 {
+  margin-left: 5vw;
+}
+
+.stage {
+  text-align: end;
+  margin-right: 5vw;
+}
+
 .photoCV {
   display: block;
   border-radius: 100%;
